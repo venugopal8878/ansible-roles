@@ -1,0 +1,5 @@
+- name: configure the mysql server
+  hosts: [local]
+  connection: local
+  roles:
+   - mysql
