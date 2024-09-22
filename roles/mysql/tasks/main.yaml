@@ -12,7 +12,7 @@
   ansible.builtin.service:
    name: mysqld
    state: started
-  enabled: yes
+   enabled: yes
 
 - name: check root password set up or not
   community.mysql.mysql_info:
